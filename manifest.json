@@ -1,0 +1,6 @@
+{
+	  "id"        : "preside-ext-cookie-consent"
+	, "title"     : "Cookie Policy feature for PresideCMS"
+	, "author"    : "Niall O'Doherty"
+	, "version"   : "1.1.0"
+}
