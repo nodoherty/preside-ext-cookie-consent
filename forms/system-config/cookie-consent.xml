@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form i18nBaseUri="system-config.cookie-consent:">
+	<tab id="cookie-consent" title="cookie-consent.tab.title">
+		<fieldset id="cookie-consent">
+			<field name="is_active"          control="yesnoswitch"        required="false" label="system-config.cookie-consent:is_active.label"          help="system-config.cookie-consent:is_active.help"                                                                       />
+			<field name="theme"              control="select"             required="true"  label="system-config.cookie-consent:theme.label"              help="system-config.cookie-consent:theme.help"              placeholder="system-config.cookie-consent:theme.placeholder" values="dark-top,dark-bottom,dark-floating,light-top,light-bottom,light-floating" labels="Dark top,Dark bottom,Dark floating,Light top,Light bottom,Light floating" />
+			<field name="headline"           control="textinput"          required="false" label="system-config.cookie-consent:headline.label"           help="system-config.cookie-consent:headline.help"                                                                        />
+			<field name="accept_button"      control="textinput"          required="false" label="system-config.cookie-consent:accept_button.label"      help="system-config.cookie-consent:accept_button.help"                                                                   />
+			<field name="readmore_button"    control="textinput"          required="false" label="system-config.cookie-consent:readmore_button.label"    help="system-config.cookie-consent:readmore_button.help"                                                                 />
+			<field name="cookie_policy_page" control="siteTreePagePicker" required="false" label="system-config.cookie-consent:cookie_policy_page.label" help="system-config.cookie-consent:cookie_policy_page.help"                                                              />
+		</fieldset>
+	</tab>
+</form>
