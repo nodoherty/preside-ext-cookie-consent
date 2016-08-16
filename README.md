@@ -10,7 +10,7 @@ From the root of your application, type the following command:
 	git submodule add https://github.com/nodoherty/preside-ext-cookie-consent.git application/extensions/preside-ext-cookie-policy
 
 ### CommandBox (box.json) method
-From the root of your application, type the following command:
+From the extensions folder of your application ( `/website/application/extensions` ), type the following command:
 
 	box install nodoherty/preside-ext-cookie-consent#v1.0.0
 
