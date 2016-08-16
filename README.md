@@ -17,7 +17,7 @@ From the extensions folder of your application ( `/website/application/extension
 ### Enabling the extension
 Once the files are installed, enable the extension by opening up the Preside developer console (using the back tick `) and entering:
 
-	extension enable preside-ext-cookie-policy
+	extension enable preside-ext-cookie-consent
 	reload all
 
 ## Usage
