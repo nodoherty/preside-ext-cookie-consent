@@ -43,6 +43,7 @@
 		Download: https://silktide.com/tools/cookie-consent/download/
 		Source  : http:////cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js
 		--->
-		<script type="text/javascript" src="/assets/js/specific/cookie-consent/cookie-consent.js"></script>
+		#event.renderIncludes( type="css", group="cookie-consent" )#
+		#event.renderIncludes( type="js" , group="cookie-consent" )#
 	</cfif>
 </cfoutput>
