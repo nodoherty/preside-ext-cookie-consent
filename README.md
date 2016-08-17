@@ -24,7 +24,12 @@ Once the files are installed, enable the extension by opening up the Preside dev
 ### Layouts
 Add the following line below the closing </body> tag in your layout templates.
 
-`#renderView( view="/general/_cookieConsent" )#`
+```
+        ...
+        #renderViewlet( event="CookieConsent._cookieConsent" )#
+    </body>
+</html>
+```
 
 ### Custom CSS
 To make it easier to customise the look and feel you can find the CSS files under `/assets/specific/cookie-consent/`
