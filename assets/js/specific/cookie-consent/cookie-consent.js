@@ -10,8 +10,7 @@
     /** @type {string} */
     var value = "cookieconsent_dismissed";
     /** @type {string} */
-    // var buff = "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/";
-    var buff = "/assets/css/specific/cookie-consent/";
+    var buff = "/preside/system/assets/extension/preside-ext-cookie-consent/assets/css/specific/cookie-consent/";
 
     if (!(document.cookie.indexOf(value) > -1 || window.navigator && window.navigator.CookiesOK)) {
       if ("function" != typeof String.prototype.trim) {
