@@ -12,7 +12,7 @@ From the root of your application, type the following command:
 ### CommandBox (box.json) method
 From the extensions folder of your application ( `/website/application/extensions` ), type the following command:
 
-	box install nodoherty/preside-ext-cookie-consent#v1.2.0
+	box install nodoherty/preside-ext-cookie-consent#v1.2.1
 
 From the Preside developer console reload the application:
 
