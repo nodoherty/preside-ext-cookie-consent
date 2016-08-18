@@ -5,7 +5,7 @@
  */
 .cc_banner-wrapper {
     z-index: 9001;
-    position: relative
+    position: relative;
 }
 
 .cc_container .cc_btn {
@@ -13,7 +13,7 @@
     text-align: center;
     font-size: 0.6em;
     transition: font-size 200ms;
-    line-height: 1em
+    line-height: 1em;
 }
 
 .cc_container .cc_message {
@@ -21,43 +21,43 @@
     transition: font-size 200ms;
     margin: 0;
     padding: 0;
-    line-height: 1.5em
+    line-height: 1.5em;
 }
 
 @media screen and (min-width: 500px) {
     .cc_container .cc_btn {
-        font-size: 0.8em
+        font-size: 0.8em;
     }
     .cc_container .cc_message {
-        font-size: 0.8em
+        font-size: 0.8em;
     }
 }
 
 @media screen and (min-width: 768px) {
     .cc_container .cc_btn {
-        font-size: 1em
+        font-size: 1em;
     }
     .cc_container .cc_message {
         font-size: 1em;
-        line-height: 1em
+        line-height: 1em;
     }
 }
 
 @media screen and (min-width: 992px) {
     .cc_container .cc_message {
-        font-size: 1em
+        font-size: 1em;
     }
 }
 
 @media print {
     .cc_banner-wrapper,
     .cc_container {
-        display: none
+        display: none;
     }
 }
 
 .cc_banner-wrapper {
-    height: 66px
+    height: 66px;
 }
 
 .cc_container {
@@ -66,7 +66,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    right: 0
+    right: 0;
 }
 
 .cc_container .cc_btn {
@@ -78,25 +78,25 @@
     width: 33%;
     margin-left: 10px;
     float: right;
-    max-width: 120px
+    max-width: 120px;
 }
 
 .cc_container .cc_message {
-    display: block
+    display: block;
 }
 
 @media screen and (min-width: 500px) {
     .cc_container .cc_message {
-        margin-top: 0.5em
+        margin-top: 0.5em;
     }
 }
 
 @media screen and (min-width: 768px) {
     .cc_container {
-        padding: 15px 30px 15px
+        padding: 15px 30px 15px;
     }
     .cc_container .cc_btn {
-        padding: 8px 15px
+        padding: 8px 15px;
     }
 }
 
@@ -105,13 +105,13 @@
     color: #4d4d4d;
     font-size: 17px;
     box-sizing: border-box;
-    border: 1px solid #ccc
+    border: 1px solid #ccc;
 }
 
 .cc_container::-moz-selection {
     background: #ff5e99;
     color: #fff;
-    text-shadow: none
+    text-shadow: none;
 }
 
 .cc_container .cc_btn,
@@ -121,60 +121,60 @@
     transition: background 200ms ease-in-out, color 200ms ease-in-out, box-shadow 200ms ease-in-out;
     -webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out, box-shadow 200ms ease-in-out;
     border-radius: 5px;
-    -webkit-border-radius: 5px
+    -webkit-border-radius: 5px;
 }
 
 .cc_container .cc_btn:hover,
 .cc_container .cc_btn:active {
     background-color: #dd1624;
-    color: #fff
+    color: #fff;
 }
 
 .cc_container a,
 .cc_container a:visited {
     text-decoration: none;
     color: #31a8f0;
-    transition: 200ms color
+    transition: 200ms color;
 }
 
 .cc_container a:hover,
 .cc_container a:active {
-    color: #555
+    color: #555;
 }
 
 @-webkit-keyframes slideDown {
     0% {
-        margin-top: -66px
+        margin-top: -66px;
     }
     100% {
-        margin-top: 0
+        margin-top: 0;
     }
 }
 
 @keyframes slideDown {
     0% {
-        margin-top: -66px
+        margin-top: -66px;
     }
     100% {
-        margin-top: 0px
+        margin-top: 0px;
     }
 }
 
 @-webkit-keyframes growDown {
     0% {
-        height: 0
+        height: 0;
     }
     100% {
-        height: 66px
+        height: 66px;
     }
 }
 
 @keyframes growDown {
     0% {
-        height: 0
+        height: 0;
     }
     100% {
-        height: 66px
+        height: 66px;
     }
 }
 
@@ -184,7 +184,7 @@
     -o-animation-duration: 0.8s;
     animation-duration: 0.8s;
     -webkit-animation-name: slideDown;
-    animation-name: slideDown
+    animation-name: slideDown;
 }
 
 .cc_banner-wrapper {
@@ -193,5 +193,5 @@
     -o-animation-duration: 0.8s;
     animation-duration: 0.8s;
     -webkit-animation-name: growDown;
-    animation-name: growDown
+    animation-name: growDown;
 }

@@ -63,6 +63,7 @@
     bottom: 0;
     overflow: hidden;
     padding: 10px;
+    opacity: 0.9;
 }
 
 .cc_container .cc_btn {
