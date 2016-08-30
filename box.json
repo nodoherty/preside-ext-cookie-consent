@@ -1,0 +1,21 @@
+{
+	  "name"                   : "PresideCMS Extension: Cookie Consent"
+	, "version"                : "1.3.0"
+	, "author"                 : "Niall O'Doherty"
+	, "createPackageDirectory" : true
+	, "packageDirectory"       : "application/extensions/preside-ext-cookie-consent"
+	, "homepage"               : ""
+	, "documentation"          : ""
+	, "repository"             : {
+		  "type" : "git"
+		, "URL"  : "https://github.com/nodoherty/preside-ext-cookie-consent"
+	  }
+	, "slug"       : "preside-ext-cookie-consent"
+	, "projectURL" : ""
+	, "ignore"     : [
+		  ".git/*"
+		, ".gitignore"
+		, ".twgit_features_subject"
+		, ".twgit"
+	  ]
+}
