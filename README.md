@@ -2,7 +2,7 @@
 Extension to add functionality for displaying a cookie consent notification to site visitors.
 
 ## Installation
-Install the extension to your application via either of the methods detailed below (Git submodule / CommandBox)
+Install the extension to your application via either of the methods detailed below (Git submodule / CommandBox + ForgeBox)
 
 ### Git Submodule method
 From the root of your application, type the following command:
@@ -10,16 +10,16 @@ From the root of your application, type the following command:
 	git submodule add https://github.com/nodoherty/preside-ext-cookie-consent.git application/extensions/preside-ext-cookie-policy
 
 ### CommandBox (box.json) method
-From the extensions folder of your application ( `/website/application/extensions` ), type the following command:
+From the root of your application type the following command:
 
-	box install nodoherty/preside-ext-cookie-consent#v1.2.1
+	box install nodoherty/preside-ext-cookie-consent#v1.3.0
 
-From the Preside developer console reload the application:
+From the Preside CMS developer console (using the back tick ` key) reload the application:
 
 	reload all
 
 ### Enabling the extension
-Once the files are installed, enable the extension by opening up the Preside developer console (using the back tick `) and entering:
+Once the files are installed, enable the extension by opening up the Preside CMS developer console and entering:
 
 	extension enable preside-ext-cookie-consent
 	reload all
@@ -52,3 +52,5 @@ Code released under the [MIT licence](http://opensource.org/licenses/MIT).
 See [SilkTide licence](https://silktide.com/tools/cookie-consent/docs/license/) for details.
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[![ZenHub] (https://raw.githubusercontent.com/ZenHubIO/support/master/zenhub-badge.png)] (https://zenhub.io)
