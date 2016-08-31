@@ -38,12 +38,24 @@ Add the following line below the closing </body> tag in your layout templates.
 ### Custom CSS
 To make it easier to customise the look and feel you can find the CSS files under `/assets/specific/cookie-consent/`
 
-The main changes should only be to the background colours, button colours and text colours.
+The main changes should only be to the background colours, button colours and text colours etc.
 I'll leave that to you.
 
 #### LESS CSS
-If you are a fan of CSS pre-processors then you can take advantage of the ...
+If you are a fan of CSS pre-processors then you can take advantage of the LESS CSS files and inherent `grunt` task file for processing any changes.
+The only changes required are to the global less files `colours.less` and `fonts.less`. Any changes to these files will result in the values being updates in the output CSS files.
 
+From within the assets folder you can now install the node packages required to easily update the styles for all default stylesheets.
+
+To do so you simply need to (from the terminal):
+* Navigate to the `assets/` folder
+* Run `npm install` which will download any dependencies defined in the `package.json` file
+
+#### Grun tasks
+To apply the changes you have made to the `.less` files you need to execute the task runner. To do so simply:
+* The run the command `grunt` from within the `assets/` folder which will execute the default task
+
+This will recompile any changes to the LESS variables / files and output the `.css` and `.min.css` version of each stylesheet required for the themes.
 
 ## Credits
 Credit to the folk at SilkTide

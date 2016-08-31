@@ -4,7 +4,7 @@
  * Derived from http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/dark-floating.css
  */
 .cc_banner-wrapper {
-  z-index: 9002;
+  z-index: 9001;
   position: relative;
 }
 .cc_container .cc_btn {
