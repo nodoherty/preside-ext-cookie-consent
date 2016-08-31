@@ -12,17 +12,12 @@ module.exports = function( grunt ) {
 		less: {
 			  options  : { }
 			, specific : {
-				, files: [{
+				files: [{
 					  expand  : true
 					, cwd     : "css/"
 					, src     : ["specific/**/*.less"]
 					, dest    : "css/"
 					, ext     : ".css"
-					, rename  : function( dest, src ){
-						var pathSplit = src.split( "/" );
-						pathSplit[ pathSplit.length-1 ] = pathSplit[ pathSplit.length-1 ];
-						return dest + pathSplit.join( "/" );
-					}
 				}]
 			}
 		},
@@ -34,25 +29,6 @@ module.exports = function( grunt ) {
 				, src    : [ "specific/**/*.css", "!**/_*.min.css" ]
 				, ext    : ".min.css"
 				, dest   : "css/"
-				, rename : function( dest, src ){
-					var pathSplit = src.split( '/' );
-					pathSplit[ pathSplit.length-1 ] = "_" + pathSplit[ pathSplit.length-2 ] + ".min.css";
-					return dest + pathSplit.join( "/" );
-				}
-			}
-		},
-
-		rename: {
-			assets: {
-				  expand : true
-				, cwd    : ""
-				, src    : '**/*._*.min.css'
-				, dest   : ""
-				, rename : function( dest, src ){
-					var pathSplit = src.split( '/' );
-					pathSplit[ pathSplit.length-1 ] = "_" + pathSplit[ pathSplit.length-1 ].replace( /\._/, "." );
-					return dest + pathSplit.join( "/" );
-				}
 			}
 		},
 
