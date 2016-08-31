@@ -1,6 +1,6 @@
 {
 	  "name"    : "cookie-consent-assets"
-	, "version" : "1.3.2"
+	, "version" : "1.3.3"
 	, "dependencies" : {
 		  "grunt"                : "^0.4.5"
 		, "grunt-contrib-cssmin" : "^0.9.0"
