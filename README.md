@@ -51,11 +51,13 @@ To do so you simply need to (from the terminal):
 * Navigate to the `assets/` folder
 * Run `npm install` which will download any dependencies defined in the `package.json` file
 
-#### Grun tasks
+#### Grunt tasks
 To apply the changes you have made to the `.less` files you need to execute the task runner. To do so simply:
 * The run the command `grunt` from within the `assets/` folder which will execute the default task
 
 This will recompile any changes to the LESS variables / files and output the `.css` and `.min.css` version of each stylesheet required for the themes.
+
+**Note:** _By default the extension uses the minified versions of the CSS files._
 
 ## Credits
 Credit to the folk at SilkTide
