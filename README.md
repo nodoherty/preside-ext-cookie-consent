@@ -41,6 +41,10 @@ To make it easier to customise the look and feel you can find the CSS files unde
 The main changes should only be to the background colours, button colours and text colours.
 I'll leave that to you.
 
+#### LESS CSS
+If you are a fan of CSS pre-processors then you can take advantage of the ...
+
+
 ## Credits
 Credit to the folk at SilkTide
 
