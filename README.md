@@ -7,7 +7,7 @@ Install the extension to your application via either of the methods detailed bel
 ### Git Submodule method
 From the root of your application, type the following command:
 
-	git submodule add https://github.com/nodoherty/preside-ext-cookie-consent.git application/extensions/preside-ext-cookie-policy
+	git submodule add https://github.com/nodoherty/preside-ext-cookie-consent.git application/extensions/preside-ext-cookie-consent
 
 ### CommandBox (box.json) method
 From the root of your application type the following command:
