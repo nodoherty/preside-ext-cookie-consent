@@ -5,6 +5,7 @@
 	cookieConsentAcceptButton     = getSystemSetting( category="cookie-consent", setting="accept_button"     , default="Got it!"                                                                        );
 	cookieConsentReadmoreButton   = getSystemSetting( category="cookie-consent", setting="readmore_button"   , default="More info"                                                                      );
 	cookieConsentCookiePolicyPage = getSystemSetting( category="cookie-consent", setting="cookie_policy_page", default="http://example.com/cookie-policy/"                                              );
+	cookieConsentExpiryDay        = getSystemSetting( category="cookie-consent", setting="expiry_day"        , default="365"                                                                            );
 
 	/* Precautionary just in case they exist but nothing has been set */
 	if( !Len( Trim( cookieConsentTheme ) ) ){
@@ -24,6 +25,9 @@
 	} else {
 		cookieConsentCookiePolicyPage = event.buildLink( page=cookieConsentCookiePolicyPage );
 	}
+	if( !Len( Trim( cookieConsentExpiryDay ) ) ){
+		cookieConsentExpiryDay = "365";
+	}
 </cfscript>
 <cfoutput>
 	<cfif ( IsBoolean( cookieConsentIsActive ?: false ) && cookieConsentIsActive ) >
@@ -34,7 +38,7 @@
 				, "dismiss"    : "#cookieConsentAcceptButton#"
 				, "learnMore"  : "#cookieConsentReadmoreButton#"
 				, "link"       : "#cookieConsentCookiePolicyPage#"
-				, "expiryDays" : "365"
+				, "expiryDays" : "#cookieConsentExpiryDay#"
 				, "target"     : "_blank"
 			};
 		</script>
