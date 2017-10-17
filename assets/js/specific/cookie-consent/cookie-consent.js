@@ -119,11 +119,15 @@
          */
         setCookie : function(path, val, exdays, value, name) {
           exdays = exdays || 365;
-          /** @type {Date} */
-          var exdate = new Date;
-          exdate.setDate(exdate.getDate() + exdays);
-          /** @type {Array} */
-          var headers = [path + "=" + val, "expires=" + exdate.toUTCString(), "path=" + name || "/"];
+          if( exdays==0 ){
+            var headers = [path + "=" + val, "path=" + name || "/"];
+          } else {
+            /** @type {Date} */
+            var exdate = new Date;
+            exdate.setDate(exdate.getDate() + exdays);
+            /** @type {Array} */
+            var headers = [path + "=" + val, "expires=" + exdate.toUTCString(), "path=" + name || "/"];
+          }
           if (value) {
             headers.push("domain=" + value);
           }
