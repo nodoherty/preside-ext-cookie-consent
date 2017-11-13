@@ -8,7 +8,7 @@
 			<field name="accept_button"      control="textinput"          required="false" label="system-config.cookie-consent:accept_button.label"      help="system-config.cookie-consent:accept_button.help"                                                                   />
 			<field name="readmore_button"    control="textinput"          required="false" label="system-config.cookie-consent:readmore_button.label"    help="system-config.cookie-consent:readmore_button.help"                                                                 />
 			<field name="cookie_policy_page" control="siteTreePagePicker" required="false" label="system-config.cookie-consent:cookie_policy_page.label" help="system-config.cookie-consent:cookie_policy_page.help"                                                              />
-			<field name="expiry_day"         control="spinner" default="365" minValue="0" maxValue="365" required="false" label="system-config.cookie-consent:expiry_day.label" help="system-config.cookie-consent:expiry_day.help"                                               />
+			<field name="expiry_day"         control="spinner"            required="false" label="system-config.cookie-consent:expiry_day.label"         help="system-config.cookie-consent:expiry_day.help"         default="365" minValue="0" maxValue="365"                    />
 		</fieldset>
 	</tab>
 </form>
