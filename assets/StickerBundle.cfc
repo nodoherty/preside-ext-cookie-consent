@@ -8,7 +8,7 @@ component {
 		bundle.addAsset( id="cookieconsent-light-floating-css", path="/css/specific/cookie-consent/light-floating.min.css" );
 		bundle.addAsset( id="cookieconsent-light-top-css"     , path="/css/specific/cookie-consent/light-top.min.css"      );
 
-		bundle.addAsset( id="cookieconsent-js"                , path="/js/specific/cookie-consent/cookie-consent.js"       );
+		bundle.addAsset( id="cookieconsent-js"                , path="/js/specific/cookie-consent/cookie-consent.min.js"   );
 	}
 
 }
