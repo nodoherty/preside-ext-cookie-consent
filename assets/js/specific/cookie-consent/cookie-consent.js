@@ -318,7 +318,7 @@
           var data = this.options.theme;
           if (-1 === data.indexOf(".css")) {
             /** @type {string} */
-            data = buff + data + ".css";
+            data = buff + data + "min.css";
           }
           /** @type {Element} */
           var style = document.createElement("link");
